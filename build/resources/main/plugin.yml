@@ -1,0 +1,31 @@
+name: ConodiaSanction
+version: '${project.version}'
+main: fr.blixow.conodia.ConodiaSanction
+api-version: 1.8
+authors: [ blixow14, Panda_Guerrier ]
+depend: [ConodiaGameAPI]
+description: plugin de sanction de conodia
+commands:
+  mute:
+    description: commande de mute
+  unmute:
+    description: commande d'unmute
+    aliases: demute
+  tempban:
+    description: commande de tempban
+    aliases: [tempb, tban, tb, tempsban]
+  ban:
+    description: commande de ban à vie
+  unban:
+    description: commande d'unban
+    aliases: deban
+  kick:
+    description: commande de kick
+  tempbanip:
+    description: commande de banip
+    aliases: [tempbip, tbip, tbanip, tempbanip, banip, ban-ip]
+  unbanip:
+    description: commande d'unbanip
+    aliases: debanip
+  history:
+    description: commande d'historique
