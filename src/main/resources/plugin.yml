@@ -1,6 +1,6 @@
 name: ConodiaSanction
 version: '${project.version}'
-main: fr.blixow.conodia.ConodiaSanction
+main: fr.pandaguerrier.conodia.ConodiaSanction
 api-version: 1.8
 authors: [ blixow14, Panda_Guerrier ]
 depend: [ConodiaGameAPI]
